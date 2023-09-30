@@ -1,3 +1,5 @@
+
+/* Styling background */
 body{
     width: 100vw;
     height: 100vh;
@@ -10,6 +12,9 @@ body{
     align-items: center;
 }
 
+
+
+/* Placing content at center */
 .container{
     display: flex;
     justify-content: center;
@@ -17,6 +22,8 @@ body{
     flex-direction: column;
 }
 
+
+/* heading styles */
 .container h1{
     color: white;
 }
@@ -25,6 +32,8 @@ body{
     color: rgb(255, 196, 0);
 }
 
+
+/* textarea styles */
 .container textarea{
     width: 50vw;
     height: 20vh;
@@ -47,6 +56,8 @@ body{
     font-size: 18px;
 }
 
+
+/* styles for bottom part */
 .actions{
     width: 100%;
     margin-top: 20px;
@@ -54,6 +65,8 @@ body{
     align-items: center;
 }
 
+
+/* button styles */
 .actions button{
     border: none;
     outline: none;
@@ -72,6 +85,9 @@ body{
     background-color: rgb(203, 1, 41);
 }
 
+
+
+/* dropdown styles */
 .actions select{
     color: white;
     flex-grow: 1;
